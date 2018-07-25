@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <parameter name="registerPage" value="https://www.baidu.com/"/>
+  <parameter name="test" value="kw"/>
+  <parameter name="dirverPath" value="src/test/resources/chromedriver.exe"/>
+  <parameter name="browserType" value="chrome"/>
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.ningmengban.web.atuo.WebAuto">
+        <methods>
+          <include name="test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.ningmengban.web.atuo.WebAuto -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

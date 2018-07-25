@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20" started-at="2018-07-15T12:01:08Z" finished-at="2018-07-15T12:01:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20" started-at="2018-07-15T12:01:08Z" finished-at="2018-07-15T12:01:08Z">
+      <class name="com.ningmengban.web.atuo.WebAuto">
+        <test-method status="SKIP" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ningmengban.web.atuo.WebAuto@1209079]" name="test1" duration-ms="0" started-at="2018-07-15T20:01:08Z" finished-at="2018-07-15T20:01:08Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'registerPage' is required by @Test on method test1 but has not been marked @Optional or defined
+in C:\Users\Administrator\AppData\Local\Temp\testng-eclipse-1938845727\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'registerPage' is required by @Test on method test1 but has not been marked @Optional or defined
+in C:\Users\Administrator\AppData\Local\Temp\testng-eclipse-1938845727\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1277)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:992)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1082)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.ningmengban.web.atuo.WebAuto -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

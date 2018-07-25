@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- 定义套件 -->
+<suite name="Suite" parallel="none">
+<!--定义一个测试集，相当于一个独立的模块  -->
+  <test name="Test">
+  <!-- 此模块下包含的测试类 -->
+    <classes>
+    <!-- 类的全路径信息，供框架反射调用 ；全路径：右键类名，Copy Qualified Name-->
+      <class name="com.ningmengban.web.atuo.WebAuto"/>
+    </classes>
+  </test> <!-- Test -->
+  <parameter name="registerPage" value="https://www.baidu.com/"></parameter>
+  <parameter name="browserType" value="chrome"></parameter>
+  <parameter name="dirverPath" value="src/test/resources/chromedriver.exe"></parameter>
+  <parameter name="test" value="kw"></parameter>
+</suite> <!-- Suite -->
